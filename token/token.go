@@ -27,12 +27,11 @@ func LookupIdent(ident string) TokenType {
 const (
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
-	
 
 	// Identifiers + literals
-	IDENT 	= "IDENT" //add, foobar, x, y, ...
-	INT   	= "INT"   //1343456
-	STRING 	= "STRING"
+	IDENT  = "IDENT" //add, foobar, x, y, ...
+	INT    = "INT"   //1343456
+	STRING = "STRING"
 
 	// Operators
 	ASSIGN   = "="
@@ -51,11 +50,12 @@ const (
 	// Delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
+	COLON     = ":"
 
-	LPAREN = "("
-	RPAREN = ")"
-	LBRACE = "{"
-	RBRACE = "}"
+	LPAREN   = "("
+	RPAREN   = ")"
+	LBRACE   = "{"
+	RBRACE   = "}"
 	LBRACKET = "["
 	RBRACKET = "]"
 
